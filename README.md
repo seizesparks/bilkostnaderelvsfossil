@@ -28,6 +28,34 @@ Brukeren kan selv endre kjørelengde per år (standard er 10 000 km).
 3. Kjør programmet i terminalen:
    python3 bilkostnader.py
 
+---
 
-This is a small Python program made as part of a coursework assignment number 1 in PY-1010.
-It compares the annual cost of owning an electric car vs. a petrol car, based on given insurance rates, traffic insurance fee, fuel/electricity usage and toll charges.
+# 🚗 Car Cost Comparison
+
+This is a small Python program created as part of the coursework for **PY-1010**.  
+The program compares the annual costs of owning an **electric car** versus a **petrol car**, based on fixed rates and a chosen annual driving distance.
+
+---
+
+## 📖 Description
+The program is based on the following assumptions:
+- Insurance:  
+  - Electric car: 5000 NOK/year  
+  - Petrol car: 7500 NOK/year
+- Traffic insurance fee: 8.38 NOK/day (applies to both cars)  
+- Fuel/electricity:  
+  - Electric car: 0.2 kWh/km, 2 NOK/kWh  
+  - Petrol car: 1 NOK/km
+- Toll charges:  
+  - Electric car: 0.1 NOK/km  
+  - Petrol car: 0.3 NOK/km
+
+The user can change the annual driving distance (default is 10,000 km).
+
+---
+
+## 🖥️ How to run the program
+1. Download or clone the repository.  
+2. Make sure you have Python 3 installed.  
+3. Run the program in the terminal:
+   python3 bilkostnader.py
